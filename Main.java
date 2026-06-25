@@ -1,5 +1,5 @@
 import java.util.Scanner;
-import ru.netology.service.CustomService;
+import ru.netology.service.CustomService;;
 
 public class Main {
     public static void main(String[] args) {
@@ -8,6 +8,6 @@ public class Main {
         int price = scanner.nextInt();
         System.out.print("Введите вес товара (в кг.): ");
         int weight = scanner.nextInt();
-        System.out.println("Размер пошлины (в руб.) составит:" + CustomService.CALCULATE_CASTOM(price, weight));
+        System.out.println("Размер пошлины (в руб.) составит:" + CustomService.calculateCastom(price, weight));
     }
 }
